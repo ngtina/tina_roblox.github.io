@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Peddana&family=Roboto:wght@300&display=swap');
+@import "fav-items.css";
+
+#banner{
+	background-color: #056676;
+}
+
+#banner-row{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0.25rem;
+}
+
+body{
+	font-family: 'Peddana', serif;
+}
+
+.form-head{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.row{
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+form{
+	padding: 0.5rem;
+}
+
+#form-row{
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+
+#footer-row {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1rem;
+}
+
+.fab>a {
+	color: #e8ded2;
+}
+
+.fab>a:hover {
+	color: #e8ded2;
+	text-decoration: none;
+}
+
+.follow {
+	padding-left: 0.25rem;
+	font-family: ‘Roboto’, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+#cards-row {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.card {
+	margin-bottom: 0.5rem;
+}
+
+.pic {
+	width: 100%;
+	height: auto;
+}
+
+#btn-container {
+	flex-direction: column;
+	position: absolute;
+	top: 9%;
+	z-index: 10;
+}
+
+.promo-btn {
+	margin-top: 10px;
+	background-color: #edc988;
+}
+
+#btn-col {
+	position: static;
+}
+
+@media (max-width: 576px) {
+	#btn-container {
+		position: relative;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-evenly;
+		top: unset;
+		bottom: 90%;
+	}
+}
